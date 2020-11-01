@@ -2,6 +2,8 @@
 
 Cheap development board with 240x320 TFT, Resistive touch pad, 180 MHz MCU with 256kB RAM + 64 MBit SDRAM and GPU.
 
+EDIT: This port is working with ILI9488 480x320 TFT and Capacitive Touch (FT6236)
+
 The CubeMX drivers are used to initilaize the peripheries. 
 
 In *hal_stm_lvgl/tft/tft.h* you can enable/disable external frame buffer placement and GPU usage. 
@@ -10,6 +12,7 @@ The project is created with CubeIDE IDE.
 
 
 ## Get started
+This project was originally cloned from >>
 - Clone the project: `git clone https://github.com/littlevgl/stm32f429_disco_no_os_sw4stm32.git --recurse-submodules`
 - Import it to CubeIDE
 `
